@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h2>Fillup the form below to calculate the electricity bill</h2>
+    <form>
+        <label for="name"><span>Client Name:  </span></label>
+        <input type="text" name="name" id="username" placeholder="Johan Smith">
+        <br>
+        <label for="present"><span>Enter Present RDG:  </span></label>
+        <input type="text" name="present" id="prrdg" placeholder="Present Unit">
+        <br>
+        <label for="past"><span>Enter Past RDG:  </span></label>
+        <input type="text" name="past" id="pardg" placeholder="Past Unit">
+        <br>
+        <label for="firstname"><span>Enter Unit Prize:  </span></label>
+        <input type="text" name="firstname" id="up" value="6" placeholder="Default value is 6">
+        <div class="smt">
+            <span class="smt">Submit</span>
+        </div>
+    </form>
+    <div class="bill-card">
+        <span>Hello <span id="uname">User</span>! <br> Your total bill is <span id="nitbill"><b>0</b></span> Taka</span>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
